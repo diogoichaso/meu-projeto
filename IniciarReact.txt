@@ -48,3 +48,26 @@ AULA 5
     O valor é chamado como atributo na chamada do componente
     Precisa ser resgatado dentro de uma propriedade/argumento chamada props na função de definição do compenente.
     São somente de leitura
+
+AULA 6
+
+  CSS
+
+  Pode ser adicionado de forma global (index.css) ou até em nível de compenente.
+  Utiliza-se o CSS meodules para isso, criando um arquivo "Compenente".module.css, e chamar o css no componnte.
+
+AULA 7
+
+  Fragmentos
+
+  Permite a criação de um objeto DOM sem pai, para desconplicar os nós do DOM
+
+  sintaxe: <></>, no próprio JSX
+
+AULA 8
+
+  PropsII
+
+  Podemos definir tipos para props, definindo um objeto propTypesno próprio componente.
+
+  É possível definir um valor padrão usando defaultProps

@@ -3,6 +3,7 @@ import HelloWorld from './components/HelloWorld';
 import SayMyName from './components/SayMyName';
 import Pessoa from './components/Pessoa';
 import Pessoa2 from './components/Pessoa2';
+import List from './components/List';
 
 function App() {
   //TODAS AS FUNÇÕES E VARIÁVEIS DEVES ESTAR NESTA ÁREA
@@ -32,6 +33,9 @@ function App() {
         <SayMyName nome={name}/>
         <Pessoa nome="Gabriel Montesuma Fraga Rocha Ichaso" idade="9" profissao="cientista"/>
         <Pessoa2 nome="Guilherme Montesuma Fraga Rocha Ichaso" idade="8"profissao="goleiro"/>
+        <List/>
+
+        
     </div>
   );
 } 
