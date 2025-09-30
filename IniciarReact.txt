@@ -1,0 +1,50 @@
+npx create-react-app nome_do_projeto
+
+npm start
+    Starts the development server.
+
+  npm run build
+    Bundles the app into static files for production.
+
+  npm test
+    Starts the test runner.
+
+  npm run eject
+    Removes this tool and copies build dependencies, configuration files
+    and scripts into the app directory. If you do this, you can’t go back!
+
+We suggest that you begin by typing:
+
+  cd meu-projeto
+  npm start
+
+AULA 3
+
+    O aplicativo é construido no arquivo App.js, dentro da pasta src
+
+    JSX é como HTML, porém dentro do código JavaScript
+
+    Podemos interpolar variávais inserindo ela entre chaves {}
+
+    É possivel também usar funções
+
+    Também é possível inserir valores em atributos de tags
+
+AULA 4
+
+    Componentes
+    Permite dividir a aplicação em partes
+
+    Os Componentes renderizam JSX, assim como App.js (que é um componente)
+
+    Precisamos criar um arquivo componente e importa-lo onde precisarmos 
+
+    normalmente fica numa pasta chamada components
+
+AULA 5
+    Props
+
+    As props são valores passados para Componentes, podendo ser dinâmico
+    O valor é chamado como atributo na chamada do componente
+    Precisa ser resgatado dentro de uma propriedade/argumento chamada props na função de definição do compenente.
+    São somente de leitura
