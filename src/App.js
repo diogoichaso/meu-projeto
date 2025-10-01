@@ -34,8 +34,6 @@ function App() {
         <Pessoa nome="Gabriel Montesuma Fraga Rocha Ichaso" idade="9" profissao="cientista"/>
         <Pessoa2 nome="Guilherme Montesuma Fraga Rocha Ichaso" idade="8"profissao="goleiro"/>
         <List/>
-
-        
     </div>
   );
 } 
