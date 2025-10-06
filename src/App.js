@@ -4,6 +4,8 @@ import SayMyName from './components/SayMyName';
 import Pessoa from './components/Pessoa';
 import Pessoa2 from './components/Pessoa2';
 import List from './components/List';
+import Evento from './components/Evento';
+import Form from './components/Form';
 
 function App() {
   //TODAS AS FUNÇÕES E VARIÁVEIS DEVES ESTAR NESTA ÁREA
@@ -34,6 +36,13 @@ function App() {
         <Pessoa nome="Gabriel Montesuma Fraga Rocha Ichaso" idade="9" profissao="cientista"/>
         <Pessoa2 nome="Guilherme Montesuma Fraga Rocha Ichaso" idade="8"profissao="goleiro"/>
         <List/>
+        {/** Início da aula 9 - Eventos */}
+      
+      <h1>AULA 9 - Eventos</h1>
+
+      <Evento numero = "1"/>
+      <Evento numero = "2"/>
+      <Form/>
     </div>
   );
 } 

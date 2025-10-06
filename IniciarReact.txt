@@ -71,3 +71,11 @@ AULA 8
   Podemos definir tipos para props, definindo um objeto propTypesno próprio componente.
 
   É possível definir um valor padrão usando defaultProps
+
+Aula 9
+
+  Eventos
+
+  O evento é sempre atrelado a uma tag, que irá executá-lo
+
+  Geralmente um método é atribuído ao evento, que deve ser criado no componente
