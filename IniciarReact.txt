@@ -79,3 +79,11 @@ Aula 9
   O evento é sempre atrelado a uma tag, que irá executá-lo
 
   Geralmente um método é atribuído ao evento, que deve ser criado no componente
+
+AULA 10
+
+  useState
+
+  É um hook do React, para manusear o estado de um compenente de forma simples
+
+  Podemos atrelar um evente a uma mudança de estado
