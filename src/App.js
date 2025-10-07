@@ -16,7 +16,7 @@ function App() {
     return a + b
   }
 
-  const url = 'https://via.placeholder.com/150'
+  const url = "https://i.ibb.co/kgJB1y4X/bandeira-do-brasil.png"
 
   return (
     <div className="App">
@@ -33,8 +33,18 @@ function App() {
         <SayMyName nome="Diogo Fraga Rocha Ichaso"/>
         <SayMyName nome="Fernanda Montesuma"/>
         <SayMyName nome={name}/>
-        <Pessoa nome="Gabriel Montesuma Fraga Rocha Ichaso" idade="9" profissao="cientista"/>
-        <Pessoa2 nome="Guilherme Montesuma Fraga Rocha Ichaso" idade="8"profissao="goleiro"/>
+        <Pessoa 
+          nome="Gabriel Montesuma Fraga Rocha Ichaso" 
+          idade="9" 
+          profissao="cientista" 
+          foto={url}
+        />
+        <Pessoa2 
+          nome="Guilherme Montesuma Fraga Rocha Ichaso" 
+          idade="8"
+          profissao="goleiro" 
+          foto={url}
+        />
         <List/>
         {/** Início da aula 9 - Eventos */}
       
