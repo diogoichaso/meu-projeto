@@ -6,11 +6,22 @@ import Pessoa2 from './components/Pessoa2';
 import List from './components/List';
 import Evento from './components/Evento';
 import Form from './components/Form';
+import Condicional from './components/Condicinal';
+import ListaAula13 from './components/ListaAula13';
+import { useState } from 'react';
+import SeuNome from './components/SeuNome';
+import Saudacao from './components/Saudacao';
 
 function App() {
   //TODAS AS FUNÇÕES E VARIÁVEIS DEVES ESTAR NESTA ÁREA
   const name = 'Diogo'
   const newName = name.toUpperCase()
+
+  //Listas da aula 13
+  const meusItens = ['React', 'Vue', 'Angular']
+
+  //STATE LIFT - Centraliza o state no pai para depois passar para os componentes filhos
+  const [nome, setNome] = useState()
 
   function sum(a, b){
     return a + b
@@ -53,6 +64,17 @@ function App() {
       <Evento numero = "1"/>
       <Evento numero = "2"/>
       <Form/>
+
+      <h1>Renderização Condicional</h1>
+      <Condicional/>
+
+      <h1>Renderização de listas</h1>
+      <ListaAula13 itens={meusItens}/>
+      <ListaAula13 itens={[]}/>
+
+      <h1>STATE LIFT</h1>
+      <SeuNome setNome = {setNome}/>{/**Está lendo o nome */}
+      <Saudacao  nome={nome}/>
     </div>
   );
 } 

@@ -93,3 +93,26 @@ AULA 11
   Métodos por Props
 
   Um compenente filho pode acessar um m método de seu ancestral, através de um evento
+
+AULA 12
+
+  Renderização condicional
+
+  É possível usar a estrutura condicional ao envolver as tags com chaves.
+  
+  É possível usar o estado para criar as condições
+
+AULA 13
+
+  Renderização de listas
+
+  utiliza a função map de um array
+
+AULA 14
+
+  State Lift
+
+  Técnica usada para compartilhar o state
+  É normal que vários Componentes dependam do mesmo estado
+  Então precisamo elevar o nível do mesmo até o componente pai
+  Então centralizamos o state no pai e definimos quem usa e quem define(setState)
