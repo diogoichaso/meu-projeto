@@ -76,6 +76,8 @@ function App() {
       <SeuNome setNome = {setNome}/>{/**Está lendo o nome */}
       <Saudacao  nome={nome}/>
     </div>
+
+    {/**ROTAS */}
   );
 } 
 
